@@ -5,7 +5,7 @@ const SELLER_PHONE = "51903415178"; // <-- Cambia aquí
 // Productos de ejemplo
 const products = [
   { id: 1, name: "Bombón de fresa", price: 3.50, emoji: "🍓", desc: "Delicioso bombón relleno" },
-  { id: 2, name: "Trufa de chocolate", price: 4.00, emoji: "🍫", desc: "Trufa cremosa artesanal" },
+  { id: 2, name: "Trufa de chocolate", price: 1.00, emoji: "🍫", desc: "Trufa cremosa artesanal" },
   { id: 3, name: "Caramelos surtidos", price: 2.50, emoji: "🍬", desc: "Bolsa 100g" },
   { id: 4, name: "Cupcake rosa", price: 5.00, emoji: "🧁", desc: "Cupcake con frosting" },
   { id: 5, name: "Macarons", price: 6.00, emoji: "🍥", desc: "Pack de 4 sabores" },
