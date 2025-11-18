@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dulcería Pastel - Pedido por WhatsApp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Dulcería Pastel 🍬</h1>
+    <p class="tagline">Dulces artesanales — pedidos por WhatsApp</p>
+  </header>
+
+  <main class="container">
+    <section class="products" aria-label="Productos">
+      <!-- Productos generados por script -->
+      <div id="products-list" class="product-grid"></div>
+    </section>
+
+    <aside class="cart" aria-label="Carrito de compras">
+      <h2>Carrito</h2>
+      <div id="cart-items" class="cart-items">
+        <p class="empty">Tu carrito está vacío</p>
+      </div>
+
+      <div class="cart-footer">
+        <div class="totals">
+          <span>Total:</span>
+          <strong id="cart-total">S/ 0.00</strong>
+        </div>
+
+        <div class="cart-actions">
+          <button id="clear-cart" class="btn ghost" type="button">Vaciar carrito</button>
+          <button id="whatsapp-order" class="btn primary" type="button" disabled>Pedir por WhatsApp</button>
+        </div>
+
+        <small class="note">Al hacer clic se abrirá WhatsApp con el pedido preformateado.</small>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Hecho con 💖 · Colores pastel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
